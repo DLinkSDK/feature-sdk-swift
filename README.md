@@ -9,8 +9,8 @@ Register an account at [https://console.dlink.cloud/](https://console.dlink.clo
 ### (1) Add Pod source in you Pod file
 
 ```Ruby
-source 'https://github.com/CocoaPods/Specs.git'
 source 'https://github.com/DLinkSDK/deeplink-dev-specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
 ```
 
 ### (2) add dependency
