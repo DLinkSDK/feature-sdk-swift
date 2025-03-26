@@ -1,8 +1,8 @@
 #feature-sdk-swift
 
-## Step 1: Get the Appid
+## Step 1: Get the AccountId
 
-Register an account at [https://console.dlink.cloud/](https://console.dlink.cloud). After creating an app on the platform, get the corresponding Appid of the app.
+Register an account at [https://console.dlink.cloud/](https://console.dlink.cloud). After creating an app on the platform, get the corresponding AccountId of the app.
 
 ## Step 2: Get the SDK
 
@@ -25,10 +25,10 @@ import FeatureExtract
 
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {    
 
-    let appId = "YourAppId"
+    let accountId = "YourAccountId"
     let deviceId = "DeviceId"
     // configure
-    FeatureExtractLib.shared.setup(.init(appId: appId, deviceId: deviceId))
+    FeatureExtractLib.shared.setup(.init(appId: accountId, deviceId: deviceId))
     // start
     FeatureExtractLib.shared.start()
 
